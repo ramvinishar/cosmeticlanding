@@ -166,7 +166,7 @@ export default function Landing() {
         key={index}
         className="bg-white p-6 rounded-xl shadow-lg text-center hover:scale-105 transform transition duration-300"
       >
-        <p className="text-gray-700 mb-4 italic">"{testimonial.review}"</p>
+        <p className="text-gray-700 mb-4 italic">&quot;{testimonial.review}&quot;</p>
         <h4 className="font-semibold text-pink-600">{testimonial.name}</h4>
       </div>
     ))}
